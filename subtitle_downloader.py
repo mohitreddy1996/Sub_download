@@ -49,7 +49,7 @@ def getsub(fname):
 	# prepare the headers and the url.
 	headers={'User-Agent':'SubDB/1.0 (mohit/0.1; http://github.com/mohitreddy1996/Sub_download)'}
 
-	url="http://api.thesubdb.com/?action=download&hash="+hash_video+"&langauge=en"
+	url="http://api.thesubdb.com/?action=download&hash="+hash_video+"&langauge=en" # langauge='language code' 
 
 	# check if the subtitles are present. if present write them in the str file and store in the same directory,else print Subtitles not found.
 	try:
