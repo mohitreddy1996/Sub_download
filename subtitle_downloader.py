@@ -38,10 +38,10 @@ def getsub(fname):
 	# get the hashed value using the hash function.
 	hash_video=get_hash(fname)
 
-	# append the file extension .str
-	strname+=".str"
+	# append the file extension .srt
+	strname+=".srt"
 
-	# check if the .str for the movie already exists.
+	# check if the .srt for the movie already exists.
 	if os.path.isfile(strname):
 		print "Already Exists"
 		exit()
